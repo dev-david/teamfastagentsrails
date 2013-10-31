@@ -1,0 +1,63 @@
+@import 'bootstrap';
+@import 'bootstrap-responsive';
+@import "flat-ui";
+
+/*********************************************************************************/
+/* David                                                                         */
+/*********************************************************************************/
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 5px;
+    display: none;
+}
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.featured-property div:hover .price {
+	color: orange;
+	text-align: center;
+}
+
+.price {
+	background-color: #000;
+	position: absolute;
+	color: #fff;
+	padding: 10px;
+	float: left;
+	font-size: 1.75em;
+	margin-left: -15px;
+	margin-top: -15px;
+}
+
+.property-picture {
+	/*position: relative;*/
+	/*left: -1em;*/
+	/*top: 0;*/
+	width: 105%;
+	max-height: 235px;
+	margin-top: 10px;
+	margin-left: -8px;
+	box-shadow: 8px 8px 4px #888888;
+	/*margin-right: -2em;*/
+	/*margin-bottom: 3em;*/
+}
+
+.toggle {
+	background-color: transparent;
+}
+
+
+
